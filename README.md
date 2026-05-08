@@ -38,7 +38,11 @@ Pais dormem tranquilos — o BabyGuard vigia.
 
 ## Demo
 
-> *(GIF em breve — adicione um vídeo curto do alerta chegando no Telegram aqui)*
+### Demo Notificação tela apagada
+![Demo tela apagada](docs/demo/demo_notificacao.gif)
+
+### Demo Notificação chat telegram
+![Demo chatbot](docs/demo/demo_notificacao_telegram.gif)
 
 ---
 

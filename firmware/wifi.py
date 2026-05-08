@@ -4,15 +4,9 @@ Gerencia conexão com a rede WiFi doméstica.
 """
 import network
 import time
-from typing import Callable
 
 
-def connect(
-    ssid: str,
-    password: str,
-    timeout: int = 15,
-    watchdog_feed: Callable | None = None,
-) -> str:
+def connect(ssid, password, timeout=15, watchdog_feed=None):
     """
     Conecta o ESP32 à rede WiFi.
 
