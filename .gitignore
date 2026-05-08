@@ -1,0 +1,53 @@
+# Credenciais e configurações locais — NUNCA versionar!
+.env
+*.env.local
+secrets.py
+.claude/
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+ENV/
+.Python
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Dados e logs gerados em runtime
+data/
+*.db
+*.sqlite
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# MicroPython / firmware
+firmware/__pycache__/
+firmware/*.mpy
+
+# Docker
+.dockerignore
+
+# Distribuição
+*.tar.gz
+*.whl

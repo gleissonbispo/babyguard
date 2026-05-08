@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=67"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "babyguard"
+version = "1.0.0"
+description = "Baby position monitoring system with real-time Telegram alerts"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Gleisson Ribeiro", email = "gleissonribeirobispo@gmail.com"}]
+keywords = ["iot", "baby-monitor", "raspberry-pi", "telegram", "micropython"]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.4",
+    "pytest-asyncio>=0.23",
+    "aiohttp>=3.9",
+    "python-dotenv>=1.0",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
