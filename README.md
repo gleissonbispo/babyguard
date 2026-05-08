@@ -39,8 +39,6 @@ Pais dormem tranquilos — o BabyGuard vigia.
 ## Demo
 
 > *(GIF em breve — adicione um vídeo curto do alerta chegando no Telegram aqui)*
-> 
-> Para adicionar: grave o celular recebendo o alerta, converta para GIF e coloque em `docs/demo.gif`. Então substitua esta seção por `![Demo](docs/demo.gif)`.
 
 ---
 
