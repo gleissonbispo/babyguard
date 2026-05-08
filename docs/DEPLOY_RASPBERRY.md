@@ -117,7 +117,7 @@ sudo apt install git -y
 
 # Clonar o repositório
 cd /home/pi
-git clone https://github.com/SEU_USUARIO/babyguard.git
+git clone https://github.com/gleissonbispo/babyguard.git
 cd babyguard
 ```
 

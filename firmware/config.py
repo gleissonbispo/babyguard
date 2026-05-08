@@ -10,7 +10,7 @@ WIFI_PASSWORD = "sua_senha"
 # === Servidor ===
 # IP do computador/Raspberry Pi que vai rodar o servidor Python
 # Descubra com `ipconfig` (Windows) ou `ifconfig`/`ip addr` (Linux)
-SERVER_IP = "192.168.1.xxx"
+SERVER_IP = "192.168.1.199"
 SERVER_PORT = 9999
 
 # === Dispositivo ===
