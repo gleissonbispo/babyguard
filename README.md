@@ -1,3 +1,5 @@
+![BabyGuard: monitor de posição do bebê com alerta no Telegram](docs/capa.png)
+
 # BabyGuard
 
 **Sistema de monitoramento de posição do bebê com alertas em tempo real via Telegram**
@@ -193,6 +195,24 @@ systemctl status babyguard
 journalctl -u babyguard -f
 ```
 
+
+---
+
+## Limitações
+
+- Relógio e servidor precisam estar na mesma rede WiFi. Sem rede, não há alerta de posição; o servidor só avisa que o relógio parou de enviar dados.
+- UDP não garante entrega. A perda de pacotes isolados é absorvida pela média móvel, mas uma rede ruim atrasa a detecção.
+- A detecção usa só a orientação do acelerômetro. Se o relógio girar na roupa ou for fixado em outra posição, a leitura deixa de representar a posição do bebê.
+- O alerta depende do Telegram e da internet da casa, além do celular dos pais com som ligado.
+- A autonomia de bateria do T-Watch com WiFi ligado a noite inteira não foi medida de forma sistemática.
+- Não é dispositivo médico e não passou por nenhuma certificação.
+
+## Próximos passos
+
+- Alarme sonoro local no servidor, para não depender da internet.
+- Calibração guiada da posição do relógio na primeira vez que é ligado.
+- Medir e documentar consumo de bateria por noite.
+- Gravar os GIFs de demonstração em formato mais leve (hoje somam cerca de 120 MB).
 
 ---
 
