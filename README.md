@@ -195,7 +195,6 @@ systemctl status babyguard
 journalctl -u babyguard -f
 ```
 
-
 ---
 
 ## Limitações
@@ -222,12 +221,17 @@ journalctl -u babyguard -f
 > 
 > O BabyGuard pode apresentar falsos negativos (não detectar uma situação de risco) por falhas de hardware, WiFi, bateria, ou posicionamento incorreto do dispositivo. **Sempre siga as orientações médicas sobre segurança do sono infantil** e mantenha supervisão adequada independentemente deste sistema.
 
-
 ---
 
 ## Autor
 
-**Gleisson Bispo** 
+**Gleisson Bispo**, Gerente de People Analytics. Escrevo sobre dados de pessoas, Data Science e IA aplicada a RH.
+
+- Site: [gleissonbispo.com.br](https://gleissonbispo.com.br) (projetos, artigos, radar de notícias e vagas de People Analytics)
+- Este projeto no site: [gleissonbispo.com.br/projetos/babyguard](https://gleissonbispo.com.br/projetos/babyguard)
+- LinkedIn: [linkedin.com/in/gleissonbispo](https://www.linkedin.com/in/gleissonbispo)
+- Newsletter: [People Analytics LAB](https://www.linkedin.com/newsletters/people-analytics-lab-7423156507271368704), no LinkedIn
+- GitHub: [@gleissonbispo](https://github.com/gleissonbispo)
 
 ---
 
